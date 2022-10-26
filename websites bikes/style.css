@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+
+.nav{
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding: 20px;
+   
+}
+
+.nav li{
+    display: inline;
+    margin-right: 30px;
+  
+}
+[rel="text"]{
+    border: 1px solid brown;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline;
+    margin-right: 30px;
+
+}
+
+
+.img img{
+    width: 100%;
+    /* background-size: contain; */
+}
+/* .img1 img{
+    margin: auto;
+} */
+
+.img1 img{
+  text-align: center;
+  
+}
+.img1 p{
+   
+    font-weight: bold;
+}
+.img1 h1{
+    /* margin:  10px 555px 10px ; */
+    font-size: 60px;
+    margin-bottom: 6px;
+}
+.img1 a{
+    /* margin:  15px 540px 10px ; */
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    color: brown;
+    border: 2px solid brown;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+   
+}
+ .section{
+    text-align: center;
+ }
+ .section h1{
+    color: darkgoldenrod;
+ }
+ .section h1:hover{
+       color: darkorange;
+       text-transform: uppercase;
+ }
+  .section ul li:nth-of-type(3){
+    color: red;
+  }
+
+.img1 a:hover{
+    color: white;
+    background-color: brown;
+
+}
+span img{
+    display: block;
+    margin: 0 auto;
+  
+    
+
+}
+
+.footer img{
+    width: 100%;
+    margin-top: 10px;
+}
+.img1{
+    text-align: center;
+}
+   
+
+/* media query for responsiveness */
+@media screen and (max-width:500px){
+    
+    li{
+       margin-right: 30px;
+      font-size: 15px;
+    }
+    
+ }
+
+ @media screen and (max-width:500px) {
+    li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6){
+        border-bottom: 1px solid darkorange;
+       
+    }
+ }
+
+ @media screen and (max-width:377px){
+     #bike{
+        width: 300px;
+    }
+ }
